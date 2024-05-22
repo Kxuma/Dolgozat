@@ -1,0 +1,143 @@
+{
+  "id": "e9691602-becf-43e9-b077-6332fdd246b4",
+  "version": "2.0",
+  "name": "Javascript Teszt",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "7331d3e8-1df0-41bd-a1d6-fae7834ecedb",
+    "name": "Javascript Teszt",
+    "commands": [{
+      "id": "de3b2b6c-7c86-4dad-9cc7-c62538ff6d5d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df35917e-8726-4422-8111-9b3cf543d219",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b42ecc30-08f0-4153-8618-f85a812f3c73",
+      "comment": "",
+      "command": "click",
+      "target": "id=element-one",
+      "targets": [
+        ["id=element-one", "id"],
+        ["css=#element-one", "css:finder"],
+        ["xpath=//div[@id='element-one']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f76343c4-d2c1-4af1-b4b1-c9596e08da05",
+      "comment": "",
+      "command": "click",
+      "target": "id=element-one",
+      "targets": [
+        ["id=element-one", "id"],
+        ["css=#element-one", "css:finder"],
+        ["xpath=//div[@id='element-one']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b838dae9-3d34-4db4-9f4a-0273a793f618",
+      "comment": "",
+      "command": "click",
+      "target": "id=element-one",
+      "targets": [
+        ["id=element-one", "id"],
+        ["css=#element-one", "css:finder"],
+        ["xpath=//div[@id='element-one']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8313e8a4-231a-4c50-9e62-60d4692addc4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=element-one",
+      "targets": [
+        ["id=element-one", "id"],
+        ["css=#element-one", "css:finder"],
+        ["xpath=//div[@id='element-one']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aca5ff84-5651-41cb-b330-a66cee00e9ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=element-one",
+      "targets": [
+        ["id=element-one", "id"],
+        ["css=#element-one", "css:finder"],
+        ["xpath=//div[@id='element-one']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6455b904-bd7a-45c5-893a-5fc31b4d8d8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#element-four > .text",
+      "targets": [
+        ["css=#element-four > .text", "css:finder"],
+        ["xpath=//div[@id='element-four']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cade6291-b507-427f-9036-2e30fba7cfd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#element-four > .text",
+      "targets": [
+        ["css=#element-four > .text", "css:finder"],
+        ["xpath=//div[@id='element-four']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e15469-4286-4314-a98a-92848644175f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#element-four > .text",
+      "targets": [
+        ["css=#element-four > .text", "css:finder"],
+        ["xpath=//div[@id='element-four']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba3a270-2b5c-4599-93b6-bd8399a975df",
+      "comment": "",
+      "command": "click",
+      "target": "id=element-three",
+      "targets": [
+        ["id=element-three", "id"],
+        ["css=#element-three", "css:finder"],
+        ["xpath=//div[@id='element-three']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e69a8123-6421-4cf7-98aa-07e118c92bb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7331d3e8-1df0-41bd-a1d6-fae7834ecedb"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
